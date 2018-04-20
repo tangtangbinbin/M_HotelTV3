@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path name="files_root" path="Android/data/com.czsm.toms.m_hoteltv/"></external-path>
+    <external-path name="external_storage_root" path="."></external-path>
+    <root-path path="." name="camera_photos"></root-path>
+</paths>

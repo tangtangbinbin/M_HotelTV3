@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <VideoView
+        android:id="@+id/db_videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ProgressBar
+        android:id="@+id/db_progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:textSize="100px"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#ffffff"
+        android:id="@+id/dianbo_channel1"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

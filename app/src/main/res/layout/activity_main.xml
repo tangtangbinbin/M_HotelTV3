@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1920*1080-->
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/lin_root"
+    android:background="@mipmap/iu4"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x32"
+        android:orientation="horizontal">
+
+        <!-- WIFI密码：无  日期  天气 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x32"
+            android:id="@+id/hotel_title"
+            android:textSize="25sp"
+            android:gravity="right|center_vertical"
+            android:text=""/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x240"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/main_info"
+            android:background="#a0000000"
+            android:padding="20px"
+            android:layout_marginLeft="@dimen/y21"
+            android:textSize="38sp"
+            android:text=""
+            android:layout_marginRight="@dimen/y21"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x32"
+        android:layout_marginTop="@dimen/x4"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="@dimen/y52"
+            android:layout_height="@dimen/x32"
+            android:id="@+id/btn_zhibo"
+            android:layout_marginLeft="@dimen/x3"
+            android:textSize="30sp"
+            android:background="#3c3f41"
+            android:text="电视直播">
+            <requestFocus></requestFocus>
+        </Button>
+        <Button
+            android:layout_width="@dimen/y52"
+            android:layout_height="@dimen/x32"
+            android:id="@+id/btn_dianbo"
+            android:layout_marginLeft="@dimen/x3"
+            android:textSize="30sp"
+            android:background="#3c3f41"
+            android:text="在线点播"/>
+        <Button
+            android:layout_width="@dimen/y52"
+            android:layout_height="@dimen/x32"
+            android:id="@+id/btn_dianbo2"
+            android:layout_marginLeft="@dimen/x3"
+            android:textSize="30sp"
+            android:visibility="gone"
+            android:background="#3c3f41"
+            android:text="本地点播"/>
+        <Button
+            android:layout_width="@dimen/y52"
+            android:layout_height="@dimen/x32"
+            android:id="@+id/btn_info"
+            android:layout_marginLeft="@dimen/x3"
+            android:textSize="30sp"
+            android:background="#3c3f41"
+            android:text="酒店介绍"/>
+        <Button
+            android:layout_width="@dimen/y52"
+            android:layout_height="@dimen/x32"
+            android:id="@+id/btn_config"
+            android:layout_marginLeft="@dimen/x3"
+            android:background="#3c3f41"
+            android:textSize="30sp"
+            android:text="配置信息"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x7"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_phonenumber"
+            android:text=""/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
+    </LinearLayout>
+
+</LinearLayout>
